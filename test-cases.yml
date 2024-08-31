@@ -56,3 +56,22 @@ steps:
     - нажимаем поле с товаром "Eyeshadow Palette with Mirror"
 expected-result: |
     Пользователь должен видеть фото и информацию о товаре "Eyeshadow Palette with Mirror" 
+
+- summary: |
+  Проверка работоспособности корзины
+requirement: |
+    при выборе товара на главной странице, пользовать должен иметь возможность добавить его в корзину, а так же просматривать корзину
+prerequisites: |
+    открыта главная страница магазина
+test-data: |
+    Тестовые данные
+    выбрать товар и добавить в корзину, например "Eyeshadow Palette with Mirror"
+    выбрать товар и добавить в корзину, например "Glamour Beauty" 
+steps:
+    - нажимаем на поле с товаром "Eyeshadow Palette with Mirror"
+    - нажимаем на кнопку "add to card"
+    - нажимаем на поле с товаром "Glamour Beauty"
+    - нажимаем на кнопку "add to card"
+    - нажимаем на кнопку "card"
+expected-result: |
+    Пользователь должен видеть перечень добавленных товаров в корзину, "Eyeshadow Palette with Mirror" и "Glamour Beauty"
