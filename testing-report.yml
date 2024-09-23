@@ -1,36 +1,36 @@
 ---
 - summary: |
     Проверка работы поисковой строки по ключевым словам
-status:
+status: pass
 
 - summary: |
     Проверка работы поиска товара по категории
-status:
+status: pass
 
 - summary: |
   Проверка работы фильтрации товара
-status:
+status: pass
 
 - summary: |
   Проверка отображения информации товара
-status:
+status: pass
 
 - summary: |
   Проверка работоспособности корзины
-status:
+status: pass
 
 - summary: |
   Простая проверка на безопасность сайта
-status:
+status: pass
     
 - summary: |
   Проверка на совместимость с последними версиями браузеров
-status:
+status: pass
         
 - summary: |
   Проверка на совместимость с мобильной версией
-status:
+status: pass
             
 - summary: |
   Проверка сайта на различный устройствах
-status:
+status: fail
